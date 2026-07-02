@@ -52,7 +52,7 @@ Prerequisites:
 
 - macOS 13+
 - Python 3.11 or 3.12
-- Node.js 20 or 22 with pnpm/Corepack
+- Node.js 22.12 or later with pnpm/Corepack
 
 ```bash
 git clone <your-fork-url>

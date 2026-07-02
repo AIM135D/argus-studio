@@ -5,7 +5,7 @@
 - macOS 13 Ventura or later
 - Apple Silicon recommended; the packaged target is arm64
 - Python 3.11 or 3.12
-- Node.js 20 or 22
+- Node.js 22.12 or later
 - pnpm 11.7 through pnpm, Corepack, or npx
 - Xcode Command Line Tools
 

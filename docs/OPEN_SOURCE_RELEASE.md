@@ -25,6 +25,12 @@ ARGUS Studio is now available as an MIT-licensed, offline-first edge vision engi
 
 3. Open the DMG and drag ARGUS Studio to Applications.
 
+SHA-256:
+
+```text
+ca33ecc49e15e5a66a7878d2cecfcef75f286bd320d892de8c1b90359fb6fec0  ARGUS-Studio-0.1.0-macOS.dmg
+```
+
 ## Platform
 
 - macOS 13 Ventura or later

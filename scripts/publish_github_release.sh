@@ -11,7 +11,7 @@ DESCRIPTION="Offline-first edge vision engineering workbench for YOLO data, expe
 DMG="dist/ARGUS-Studio-0.1.0-macOS.dmg"
 CHECKSUM="${DMG}.sha256"
 
-for command_name in git gh shasum; do
+for command_name in git gh pnpm shasum; do
   command -v "$command_name" >/dev/null 2>&1 || {
     printf 'Missing required command: %s\n' "$command_name" >&2
     [[ "$command_name" == "gh" ]] && printf 'Install GitHub CLI from https://cli.github.com/ and run: gh auth login\n' >&2
@@ -27,6 +27,7 @@ OWNER="$(gh api user --jq .login)"
 [[ -z "$(git status --porcelain)" ]] || { printf 'Commit or discard local changes before publishing.\n' >&2; exit 1; }
 
 ./scripts/security_scan.sh
+pnpm audit --audit-level high
 [[ -f "$DMG" ]] || { printf 'Missing release asset: %s\nRun ./build_macos.command first.\n' "$DMG" >&2; exit 1; }
 [[ -f "$CHECKSUM" ]] || { printf 'Missing checksum: %s\n' "$CHECKSUM" >&2; exit 1; }
 (cd "$(dirname "$DMG")" && shasum -a 256 -c "$(basename "$CHECKSUM")")
@@ -70,6 +71,7 @@ fi
 git push -u origin main
 gh repo edit "$SLUG" \
   --description "$DESCRIPTION" \
+  --default-branch main \
   --visibility public \
   --enable-issues \
   --enable-projects=false \

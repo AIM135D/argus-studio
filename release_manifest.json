@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "product": "ARGUS Studio",
+  "version": "0.1.0",
+  "tag": "v0.1.0",
+  "release_title": "ARGUS Studio v0.1.0 — Initial Public Release",
+  "license": "MIT",
+  "platform": {
+    "os": "macOS",
+    "minimum_version": "13.0",
+    "architecture": "arm64"
+  },
+  "artifact": {
+    "filename": "ARGUS-Studio-0.1.0-macOS.dmg",
+    "size_bytes": 197815748,
+    "sha256": "ca33ecc49e15e5a66a7878d2cecfcef75f286bd320d892de8c1b90359fb6fec0",
+    "built_at_utc": "2026-07-02T10:48:50Z",
+    "code_signing": "ad-hoc",
+    "hardened_runtime": true,
+    "notarized": false
+  },
+  "release_assets": [
+    "ARGUS-Studio-0.1.0-macOS.dmg",
+    "ARGUS-Studio-0.1.0-macOS.dmg.sha256"
+  ],
+  "verification": {
+    "pytest": "10 passed",
+    "vitest": "1 passed",
+    "development_e2e": "1 passed",
+    "packaged_e2e": "1 passed",
+    "typecheck": "passed",
+    "eslint": "passed",
+    "vite_build": "passed",
+    "pyinstaller": "passed",
+    "codesign_strict_deep_verify": "passed",
+    "hdiutil_verify": "passed",
+    "security_scan": "passed",
+    "pnpm_audit": "no known vulnerabilities",
+    "pip_check": "passed"
+  }
+}

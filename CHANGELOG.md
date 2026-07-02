@@ -25,6 +25,7 @@ All notable changes are documented here. The format follows Keep a Changelog and
 - Added per-launch sidecar tokens, loopback-only binding, trusted Host validation, restricted CORS, CSP, and IPC sender checks.
 - Removed local absolute paths, personal identifiers, generated databases, model binaries, and private build outputs from the public history.
 - Disabled FastAPI interactive documentation and genericized internal error responses.
+- Upgraded Electron, Electron Builder, and Vitest to patched release lines; the final pnpm lockfile reports no known vulnerabilities.
 
 ### Known limitations
 

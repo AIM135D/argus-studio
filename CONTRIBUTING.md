@@ -11,7 +11,7 @@ Thank you for helping improve ARGUS Studio. Small, reviewable changes with tests
 
 ## Development setup
 
-ARGUS Studio currently requires macOS 13+, Python 3.11/3.12, and Node.js 20/22.
+ARGUS Studio currently requires macOS 13+, Python 3.11/3.12, and Node.js 22.12 or later.
 
 ```bash
 git clone <your-fork-url>

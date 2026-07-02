@@ -9,6 +9,8 @@ No unresolved Critical or High findings were identified in the reviewed local-fi
 
 The review followed secure defaults for React/TypeScript and FastAPI, with special attention to client injection sinks, IPC exposure, CORS, Host handling, local authentication, file paths, subprocess use, dependency locking, and release hygiene.
 
+The final JavaScript lockfile reports no known vulnerabilities through `pnpm audit`; `pip check` reports no broken Python requirements.
+
 ## Resolved findings
 
 ### OSS-PRIVACY-001

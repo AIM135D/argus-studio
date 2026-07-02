@@ -6,6 +6,9 @@
   "author": "ARGUS Studio Contributors",
   "license": "MIT",
   "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
     "dev": "concurrently -k \"vite --host 127.0.0.1\" \"wait-on tcp:5173 && cross-env VITE_DEV_SERVER_URL=http://127.0.0.1:5173 electron .\"",
     "dev:renderer": "vite --host 127.0.0.1",
@@ -18,8 +21,8 @@
     "build:renderer": "vite build",
     "build:electron": "rm -rf out-electron && tsc -p app/electron/tsconfig.json",
     "build": "tsc --noEmit && tsc -p app/electron/tsconfig.json --noEmit && vite build && rm -rf out-electron && tsc -p app/electron/tsconfig.json",
-    "dist:mac": "tsc --noEmit && tsc -p app/electron/tsconfig.json --noEmit && vite build && rm -rf out-electron && tsc -p app/electron/tsconfig.json && electron-builder --mac dmg zip",
-    "dist:dir": "tsc --noEmit && tsc -p app/electron/tsconfig.json --noEmit && vite build && rm -rf out-electron && tsc -p app/electron/tsconfig.json && electron-builder --dir",
+    "dist:mac": "pnpm run build && bash scripts/package_macos.sh",
+    "dist:dir": "pnpm run build && bash scripts/package_macos.sh --dir-only",
     "demo": "python scripts/generate_demo.py"
   },
   "dependencies": {
@@ -44,8 +47,8 @@
     "autoprefixer": "^10.4.20",
     "concurrently": "^9.1.0",
     "cross-env": "^7.0.3",
-    "electron": "^33.2.1",
-    "electron-builder": "^25.1.8",
+    "electron": "^39.8.1",
+    "electron-builder": "^26.15.3",
     "eslint": "^9.17.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.16",
@@ -55,12 +58,13 @@
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.18.2",
     "vite": "^6.0.5",
-    "vitest": "^2.1.8",
+    "vitest": "^3.2.6",
     "wait-on": "^8.0.1"
   },
   "build": {
     "appId": "studio.argus.desktop",
     "productName": "ARGUS Studio",
+    "electronDist": "node_modules/electron/dist",
     "artifactName": "ARGUS-Studio-${version}-${arch}.${ext}",
     "directories": {
       "output": "dist",
@@ -104,6 +108,7 @@
         }
       ],
       "category": "public.app-category.developer-tools",
+      "minimumSystemVersion": "13.0",
       "hardenedRuntime": true,
       "gatekeeperAssess": false,
       "entitlements": "build/entitlements.mac.plist",
