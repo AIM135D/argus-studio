@@ -1,6 +1,6 @@
 # v0.1.0 Security Review
 
-Review date: 2026-07-02  
+Review date: 2026-07-02
 Scope: tracked source, committed Demo, documentation, Electron boundary, local FastAPI API, dependencies, build scripts, screenshots, and planned release artifacts.
 
 ## Outcome
