@@ -68,7 +68,17 @@ else
   git remote add origin "$EXPECTED_HTTPS"
 fi
 
+if git rev-parse -q --verify "refs/tags/${TAG}" >/dev/null; then
+  [[ "$(git rev-list -n 1 "$TAG")" == "$(git rev-parse HEAD)" ]] || {
+    printf 'Local tag %s points to a different commit. Refusing to move a release tag.\n' "$TAG" >&2
+    exit 1
+  }
+else
+  git tag -a "$TAG" -m "$TITLE"
+fi
+
 git push -u origin main
+git push origin "refs/tags/${TAG}"
 gh repo edit "$SLUG" \
   --description "$DESCRIPTION" \
   --default-branch main \
@@ -98,7 +108,7 @@ else
     --repo "$SLUG" \
     --title "$TITLE" \
     --notes-file docs/OPEN_SOURCE_RELEASE.md \
-    --target main \
+    --verify-tag \
     --latest
 fi
 
