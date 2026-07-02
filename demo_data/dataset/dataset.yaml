@@ -1,0 +1,8 @@
+path: .
+train: images/train
+val: images/val
+test: images/test
+names:
+- person
+- helmet
+- vest

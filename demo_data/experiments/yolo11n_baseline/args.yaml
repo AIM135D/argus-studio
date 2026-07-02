@@ -1,0 +1,5 @@
+model: yolo11n
+imgsz: 640
+batch: 16
+epochs: 30
+data: ../../dataset/dataset.yaml

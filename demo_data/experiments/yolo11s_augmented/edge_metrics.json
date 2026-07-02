@@ -1,0 +1,9 @@
+{
+  "model_size_mb": 18.7,
+  "fps": 27.4,
+  "latency_ms": 36.5,
+  "cpu_percent": 27,
+  "bpu_percent": 71,
+  "power_w": 6.9,
+  "temperature_c": 62
+}

@@ -1,0 +1,2987 @@
+[
+  {
+    "image": "dataset/images/train/siteA_clip01_frame_000001.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.18,
+          0.54,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 0,
+        "bbox": [
+          0.54,
+          0.58,
+          0.14,
+          0.5
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.93,
+        "bbox": [
+          0.184,
+          0.537,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.37,
+        "bbox": [
+          0.82,
+          0.62,
+          0.12,
+          0.2
+        ],
+        "match": "FP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip01_frame_000002.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.265,
+          0.5722108843618846,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.265,
+          0.3422108843618846,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.265,
+          0.5822108843618846,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.86,
+        "bbox": [
+          0.269,
+          0.56921,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.79,
+        "bbox": [
+          0.269,
+          0.33921,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.72,
+        "bbox": [
+          0.269,
+          0.57921,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip01_frame_000003.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.35,
+          0.589272486499423,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.35,
+          0.359272486499423,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.35,
+          0.599272486499423,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.79,
+        "bbox": [
+          0.354,
+          0.58627,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.72,
+        "bbox": [
+          0.354,
+          0.35627,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.65,
+        "bbox": [
+          0.354,
+          0.59627,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip01_frame_000004.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.435,
+          0.5831604683324437,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.435,
+          0.35316046833244374,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.435,
+          0.5931604683324437,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.72,
+        "bbox": [
+          0.439,
+          0.58016,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.65,
+        "bbox": [
+          0.439,
+          0.35016,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.93,
+        "bbox": [
+          0.439,
+          0.59016,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip01_frame_000005.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.52,
+          0.5567494075077953,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.52,
+          0.32674940750779535,
+          0.12,
+          0.1
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.65,
+        "bbox": [
+          0.524,
+          0.55375,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.93,
+        "bbox": [
+          0.524,
+          0.32375,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip01_frame_000006.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.605,
+          0.5224608386155191,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.605,
+          0.5324608386155191,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.93,
+        "bbox": [
+          0.609,
+          0.51946,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.86,
+        "bbox": [
+          0.609,
+          0.52946,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip01_frame_000007.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.69,
+          0.49642121137932066,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.69,
+          0.2664212113793206,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.69,
+          0.5064212113793206,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.86,
+        "bbox": [
+          0.694,
+          0.49342,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.79,
+        "bbox": [
+          0.694,
+          0.26342,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.72,
+        "bbox": [
+          0.694,
+          0.50342,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip01_frame_000008.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.7750000000000001,
+          0.4908773693687834,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.7750000000000001,
+          0.26087736936878336,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.7750000000000001,
+          0.5008773693687834,
+          0.135,
+          0.22
+        ]
+      },
+      {
+        "class_id": 0,
+        "bbox": [
+          0.88,
+          0.58,
+          0.14,
+          0.5
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.88,
+          0.37,
+          0.1,
+          0.09
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.79,
+        "bbox": [
+          0.779,
+          0.48788,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.72,
+        "bbox": [
+          0.779,
+          0.25788,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.65,
+        "bbox": [
+          0.779,
+          0.49788,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.93,
+        "bbox": [
+          0.884,
+          0.577,
+          0.14,
+          0.5
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.86,
+        "bbox": [
+          0.884,
+          0.367,
+          0.1,
+          0.09
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip02_frame_000009.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.18,
+          0.508436668106384,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.18,
+          0.278436668106384,
+          0.12,
+          0.1
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.72,
+        "bbox": [
+          0.184,
+          0.50544,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.65,
+        "bbox": [
+          0.184,
+          0.27544,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip02_frame_000010.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.265,
+          0.5408406950242175,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.265,
+          0.3108406950242175,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.265,
+          0.5508406950242175,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.65,
+        "bbox": [
+          0.269,
+          0.53784,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.86,
+        "bbox": [
+          0.269,
+          0.54784,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip02_frame_000011.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.35,
+          0.5728493299359395,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.35,
+          0.5828493299359395,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.93,
+        "bbox": [
+          0.354,
+          0.56985,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.86,
+        "bbox": [
+          0.354,
+          0.57985,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip02_frame_000012.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.435,
+          0.58940841169385,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.435,
+          0.35940841169385007,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.435,
+          0.5994084116938501,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.86,
+        "bbox": [
+          0.439,
+          0.58641,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.79,
+        "bbox": [
+          0.439,
+          0.35641,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.72,
+        "bbox": [
+          0.439,
+          0.59641,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.37,
+        "bbox": [
+          0.82,
+          0.62,
+          0.12,
+          0.2
+        ],
+        "match": "FP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip02_frame_000013.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.52,
+          0.5827299454044141,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.52,
+          0.35272994540441416,
+          0.12,
+          0.1
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.79,
+        "bbox": [
+          0.524,
+          0.57973,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.72,
+        "bbox": [
+          0.524,
+          0.34973,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip02_frame_000014.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.605,
+          0.5559549181174677,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.605,
+          0.3259549181174677,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.605,
+          0.5659549181174677,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.72,
+        "bbox": [
+          0.609,
+          0.55295,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.65,
+        "bbox": [
+          0.609,
+          0.32295,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.93,
+        "bbox": [
+          0.609,
+          0.56295,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip02_frame_000015.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.69,
+          0.5216760435374037,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.69,
+          0.29167604353740373,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.69,
+          0.5316760435374037,
+          0.135,
+          0.22
+        ]
+      },
+      {
+        "class_id": 0,
+        "bbox": [
+          0.88,
+          0.58,
+          0.14,
+          0.5
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.88,
+          0.37,
+          0.1,
+          0.09
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.65,
+        "bbox": [
+          0.694,
+          0.51868,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.93,
+        "bbox": [
+          0.694,
+          0.28868,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.86,
+        "bbox": [
+          0.694,
+          0.52868,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.79,
+        "bbox": [
+          0.884,
+          0.577,
+          0.14,
+          0.5
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.72,
+        "bbox": [
+          0.884,
+          0.367,
+          0.1,
+          0.09
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip02_frame_000016.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.7750000000000001,
+          0.4960152120014165,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.7750000000000001,
+          0.5060152120014165,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.93,
+        "bbox": [
+          0.779,
+          0.49302,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.86,
+        "bbox": [
+          0.779,
+          0.50302,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip03_frame_000017.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.18,
+          0.4910411135424342,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.18,
+          0.2610411135424342,
+          0.12,
+          0.1
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.86,
+        "bbox": [
+          0.184,
+          0.48804,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.79,
+        "bbox": [
+          0.184,
+          0.25804,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip03_frame_000018.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.265,
+          0.5090931443881483,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.265,
+          0.27909314438814836,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.265,
+          0.5190931443881484,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.79,
+        "bbox": [
+          0.269,
+          0.50609,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.72,
+        "bbox": [
+          0.269,
+          0.27609,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.65,
+        "bbox": [
+          0.269,
+          0.51609,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip03_frame_000019.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.35,
+          0.5416811523610569,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.35,
+          0.31168115236105687,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.35,
+          0.5516811523610569,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.72,
+        "bbox": [
+          0.354,
+          0.53868,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.93,
+        "bbox": [
+          0.354,
+          0.54868,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip03_frame_000020.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.435,
+          0.57347848810983,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.435,
+          0.34347848810983006,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.435,
+          0.58347848810983,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.65,
+        "bbox": [
+          0.439,
+          0.57048,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.93,
+        "bbox": [
+          0.439,
+          0.34048,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.86,
+        "bbox": [
+          0.439,
+          0.58048,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip03_frame_000021.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.52,
+          0.5895303677847435,
+          0.16,
+          0.55
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.93,
+        "bbox": [
+          0.524,
+          0.58653,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip03_frame_000022.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.605,
+          0.5822873415571468,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.605,
+          0.3522873415571468,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.605,
+          0.5922873415571468,
+          0.135,
+          0.22
+        ]
+      },
+      {
+        "class_id": 0,
+        "bbox": [
+          0.88,
+          0.58,
+          0.14,
+          0.5
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.86,
+        "bbox": [
+          0.609,
+          0.57929,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.79,
+        "bbox": [
+          0.609,
+          0.34929,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.72,
+        "bbox": [
+          0.609,
+          0.58929,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.65,
+        "bbox": [
+          0.884,
+          0.577,
+          0.14,
+          0.5
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip03_frame_000023.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.69,
+          0.5551559178372852,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.69,
+          0.32515591783728526,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.69,
+          0.5651559178372852,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.79,
+        "bbox": [
+          0.694,
+          0.55216,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.72,
+        "bbox": [
+          0.694,
+          0.32216,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.65,
+        "bbox": [
+          0.694,
+          0.56216,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.37,
+        "bbox": [
+          0.82,
+          0.62,
+          0.12,
+          0.2
+        ],
+        "match": "FP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip03_frame_000024.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.7750000000000001,
+          0.5208964291407997,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.7750000000000001,
+          0.2908964291407997,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.7750000000000001,
+          0.5308964291407997,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.72,
+        "bbox": [
+          0.779,
+          0.5179,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.65,
+        "bbox": [
+          0.779,
+          0.2879,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.93,
+        "bbox": [
+          0.779,
+          0.5279,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip04_frame_000025.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.18,
+          0.49562164832092487,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.18,
+          0.26562164832092483,
+          0.12,
+          0.1
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.65,
+        "bbox": [
+          0.184,
+          0.49262,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.93,
+        "bbox": [
+          0.184,
+          0.26262,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip04_frame_000026.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.265,
+          0.49121869972659216,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.265,
+          0.5012186997265922,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.93,
+        "bbox": [
+          0.269,
+          0.48822,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.86,
+        "bbox": [
+          0.269,
+          0.49822,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip04_frame_000027.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.35,
+          0.5097583588796858,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.35,
+          0.2797583588796858,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.35,
+          0.5197583588796858,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.86,
+        "bbox": [
+          0.354,
+          0.50676,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.79,
+        "bbox": [
+          0.354,
+          0.27676,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.72,
+        "bbox": [
+          0.354,
+          0.51676,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip04_frame_000028.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.435,
+          0.5425211343903406,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.435,
+          0.31252113439034057,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.435,
+          0.5525211343903406,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.79,
+        "bbox": [
+          0.439,
+          0.53952,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.65,
+        "bbox": [
+          0.439,
+          0.54952,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip04_frame_000029.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.52,
+          0.5740981810034067,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.52,
+          0.3440981810034067,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 0,
+        "bbox": [
+          0.88,
+          0.58,
+          0.14,
+          0.5
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.72,
+        "bbox": [
+          0.524,
+          0.5711,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.65,
+        "bbox": [
+          0.524,
+          0.3411,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.93,
+        "bbox": [
+          0.884,
+          0.577,
+          0.14,
+          0.5
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip04_frame_000030.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.605,
+          0.5896383202917954,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.605,
+          0.35963832029179543,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.605,
+          0.5996383202917954,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.65,
+        "bbox": [
+          0.609,
+          0.58664,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.93,
+        "bbox": [
+          0.609,
+          0.35664,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.86,
+        "bbox": [
+          0.609,
+          0.59664,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip04_frame_000031.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.69,
+          0.5818327819268029,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.69,
+          0.5918327819268029,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.93,
+        "bbox": [
+          0.694,
+          0.57883,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.86,
+        "bbox": [
+          0.694,
+          0.58883,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/train/siteA_clip04_frame_000032.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.7750000000000001,
+          0.5543526325663864,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.7750000000000001,
+          0.32435263256638647,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.7750000000000001,
+          0.5643526325663865,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.86,
+        "bbox": [
+          0.779,
+          0.55135,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.79,
+        "bbox": [
+          0.779,
+          0.32135,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.72,
+        "bbox": [
+          0.779,
+          0.56135,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/val/siteA_clip05_frame_000033.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.18,
+          0.5201222158439284,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.18,
+          0.2901222158439284,
+          0.12,
+          0.1
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.79,
+        "bbox": [
+          0.184,
+          0.51712,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.72,
+        "bbox": [
+          0.184,
+          0.28712,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/val/siteA_clip05_frame_000034.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.265,
+          0.495240631609016,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.265,
+          0.265240631609016,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.265,
+          0.505240631609016,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.72,
+        "bbox": [
+          0.269,
+          0.49224,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.65,
+        "bbox": [
+          0.269,
+          0.26224,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.93,
+        "bbox": [
+          0.269,
+          0.50224,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.37,
+        "bbox": [
+          0.82,
+          0.62,
+          0.12,
+          0.2
+        ],
+        "match": "FP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/val/siteA_clip05_frame_000035.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.35,
+          0.4914100777128068,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.35,
+          0.2614100777128068,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.35,
+          0.5014100777128068,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.65,
+        "bbox": [
+          0.354,
+          0.48841,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.93,
+        "bbox": [
+          0.354,
+          0.25841,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.86,
+        "bbox": [
+          0.354,
+          0.49841,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/val/siteA_clip05_frame_000036.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.435,
+          0.5104321235067438,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.435,
+          0.5204321235067438,
+          0.135,
+          0.22
+        ]
+      },
+      {
+        "class_id": 0,
+        "bbox": [
+          0.7949999999999999,
+          0.58,
+          0.14,
+          0.5
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.7949999999999999,
+          0.37,
+          0.1,
+          0.09
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.93,
+        "bbox": [
+          0.439,
+          0.50743,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.86,
+        "bbox": [
+          0.439,
+          0.51743,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.79,
+        "bbox": [
+          0.799,
+          0.577,
+          0.14,
+          0.5
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.72,
+        "bbox": [
+          0.799,
+          0.367,
+          0.1,
+          0.09
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/val/siteA_clip05_frame_000037.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.52,
+          0.5433604036262738,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.52,
+          0.3133604036262738,
+          0.12,
+          0.1
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.86,
+        "bbox": [
+          0.524,
+          0.54036,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/val/siteA_clip05_frame_000038.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.605,
+          0.5747082334126121,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.605,
+          0.34470823341261214,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.605,
+          0.5847082334126121,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.79,
+        "bbox": [
+          0.609,
+          0.57171,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.72,
+        "bbox": [
+          0.609,
+          0.34171,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.65,
+        "bbox": [
+          0.609,
+          0.58171,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/val/siteA_clip05_frame_000039.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.69,
+          0.5897322386938919,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.69,
+          0.3597322386938919,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.69,
+          0.5997322386938919,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.72,
+        "bbox": [
+          0.694,
+          0.58673,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.65,
+        "bbox": [
+          0.694,
+          0.35673,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.93,
+        "bbox": [
+          0.694,
+          0.59673,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/val/siteA_clip05_frame_000040.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.7750000000000001,
+          0.5813663950297691,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.7750000000000001,
+          0.3513663950297691,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.7750000000000001,
+          0.5913663950297691,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.65,
+        "bbox": [
+          0.779,
+          0.57837,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.93,
+        "bbox": [
+          0.779,
+          0.34837,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.86,
+        "bbox": [
+          0.779,
+          0.58837,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/test/siteA_clip06_frame_000041.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.18,
+          0.5535452894153935,
+          0.16,
+          0.55
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.93,
+        "bbox": [
+          0.184,
+          0.55055,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/test/siteA_clip06_frame_000042.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.265,
+          0.519353622537973,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.265,
+          0.28935362253797303,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.265,
+          0.529353622537973,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.86,
+        "bbox": [
+          0.269,
+          0.51635,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.79,
+        "bbox": [
+          0.269,
+          0.28635,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.72,
+        "bbox": [
+          0.269,
+          0.52635,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/test/siteA_clip06_frame_000043.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.35,
+          0.49487226958949077,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.35,
+          0.2648722695894907,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.35,
+          0.5048722695894907,
+          0.135,
+          0.22
+        ]
+      },
+      {
+        "class_id": 0,
+        "bbox": [
+          0.71,
+          0.58,
+          0.14,
+          0.5
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.71,
+          0.37,
+          0.1,
+          0.09
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.79,
+        "bbox": [
+          0.354,
+          0.49187,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.72,
+        "bbox": [
+          0.354,
+          0.26187,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.65,
+        "bbox": [
+          0.354,
+          0.50187,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.93,
+        "bbox": [
+          0.714,
+          0.577,
+          0.14,
+          0.5
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.86,
+        "bbox": [
+          0.714,
+          0.367,
+          0.1,
+          0.09
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/test/siteA_clip06_frame_000044.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.435,
+          0.4916151933933097,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.435,
+          0.26161519339330974,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.435,
+          0.5016151933933097,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.72,
+        "bbox": [
+          0.439,
+          0.48862,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.65,
+        "bbox": [
+          0.439,
+          0.25862,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.93,
+        "bbox": [
+          0.439,
+          0.49862,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/test/siteA_clip06_frame_000045.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.52,
+          0.5111142477777133,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.52,
+          0.2811142477777133,
+          0.12,
+          0.1
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.65,
+        "bbox": [
+          0.524,
+          0.50811,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.93,
+        "bbox": [
+          0.524,
+          0.27811,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.37,
+        "bbox": [
+          0.82,
+          0.62,
+          0.12,
+          0.2
+        ],
+        "match": "FP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/test/siteA_clip06_frame_000046.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.605,
+          0.5441987227845873,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.605,
+          0.5541987227845873,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.93,
+        "bbox": [
+          0.609,
+          0.5412,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/test/siteA_clip06_frame_000047.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.69,
+          0.5753084728590165,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.69,
+          0.34530847285901656,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.69,
+          0.5853084728590165,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.86,
+        "bbox": [
+          0.694,
+          0.57231,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.79,
+        "bbox": [
+          0.694,
+          0.34231,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.72,
+        "bbox": [
+          0.694,
+          0.58231,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  },
+  {
+    "image": "dataset/images/test/siteA_clip06_frame_000048.jpg",
+    "ground_truth": [
+      {
+        "class_id": 0,
+        "bbox": [
+          0.7750000000000001,
+          0.5898120964377432,
+          0.16,
+          0.55
+        ]
+      },
+      {
+        "class_id": 1,
+        "bbox": [
+          0.7750000000000001,
+          0.35981209643774326,
+          0.12,
+          0.1
+        ]
+      },
+      {
+        "class_id": 2,
+        "bbox": [
+          0.7750000000000001,
+          0.5998120964377432,
+          0.135,
+          0.22
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "confidence": 0.79,
+        "bbox": [
+          0.779,
+          0.58681,
+          0.16,
+          0.55
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 1,
+        "confidence": 0.72,
+        "bbox": [
+          0.779,
+          0.35681,
+          0.12,
+          0.1
+        ],
+        "match": "TP"
+      },
+      {
+        "class_id": 2,
+        "confidence": 0.65,
+        "bbox": [
+          0.779,
+          0.59681,
+          0.135,
+          0.22
+        ],
+        "match": "TP"
+      }
+    ]
+  }
+]

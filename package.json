@@ -1,0 +1,126 @@
+{
+  "name": "argus-studio",
+  "version": "0.1.0",
+  "description": "ARGUS Studio — Edge Vision Engineering Workbench",
+  "main": "out-electron/main.js",
+  "author": "ARGUS Studio Contributors",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k \"vite --host 127.0.0.1\" \"wait-on tcp:5173 && cross-env VITE_DEV_SERVER_URL=http://127.0.0.1:5173 electron .\"",
+    "dev:renderer": "vite --host 127.0.0.1",
+    "dev:electron": "wait-on tcp:5173 && cross-env VITE_DEV_SERVER_URL=http://127.0.0.1:5173 electron .",
+    "dev:web": "vite --host 127.0.0.1",
+    "typecheck": "tsc --noEmit && tsc -p app/electron/tsconfig.json --noEmit",
+    "lint": "eslint app --ext .ts,.tsx",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "build:renderer": "vite build",
+    "build:electron": "rm -rf out-electron && tsc -p app/electron/tsconfig.json",
+    "build": "tsc --noEmit && tsc -p app/electron/tsconfig.json --noEmit && vite build && rm -rf out-electron && tsc -p app/electron/tsconfig.json",
+    "dist:mac": "tsc --noEmit && tsc -p app/electron/tsconfig.json --noEmit && vite build && rm -rf out-electron && tsc -p app/electron/tsconfig.json && electron-builder --mac dmg zip",
+    "dist:dir": "tsc --noEmit && tsc -p app/electron/tsconfig.json --noEmit && vite build && rm -rf out-electron && tsc -p app/electron/tsconfig.json && electron-builder --dir",
+    "demo": "python scripts/generate_demo.py"
+  },
+  "dependencies": {
+    "@tanstack/react-table": "^8.21.3",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.1.1",
+    "recharts": "^2.15.0",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@eslint/js": "^9.17.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.1.0",
+    "cross-env": "^7.0.3",
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "jsdom": "^25.0.1",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.18.2",
+    "vite": "^6.0.5",
+    "vitest": "^2.1.8",
+    "wait-on": "^8.0.1"
+  },
+  "build": {
+    "appId": "studio.argus.desktop",
+    "productName": "ARGUS Studio",
+    "artifactName": "ARGUS-Studio-${version}-${arch}.${ext}",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "dist-renderer/**/*",
+      "out-electron/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "build/argus-core",
+        "to": "core",
+        "filter": ["**/*"]
+      },
+      {
+        "from": "demo_data",
+        "to": "demo_data",
+        "filter": ["**/*"]
+      },
+      {
+        "from": "LICENSE",
+        "to": "LICENSE"
+      },
+      {
+        "from": "docs/THIRD_PARTY_NOTICES.md",
+        "to": "THIRD_PARTY_NOTICES.md"
+      }
+    ],
+    "mac": {
+      "icon": "build/icon.icns",
+      "target": [
+        {
+          "target": "dmg",
+          "arch": ["arm64"]
+        },
+        {
+          "target": "zip",
+          "arch": ["arm64"]
+        }
+      ],
+      "category": "public.app-category.developer-tools",
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false,
+      "entitlements": "build/entitlements.mac.plist",
+      "entitlementsInherit": "build/entitlements.mac.plist",
+      "extendInfo": {
+        "NSDocumentsFolderUsageDescription": "ARGUS Studio 需要读取你选择的视觉数据与实验文件。",
+        "NSDownloadsFolderUsageDescription": "ARGUS Studio 需要读取或导出你明确选择的文件。"
+      }
+    },
+    "dmg": {
+      "title": "ARGUS Studio",
+      "sign": false,
+      "contents": [
+        { "x": 140, "y": 220 },
+        { "x": 410, "y": 220, "type": "link", "path": "/Applications" }
+      ]
+    }
+  },
+  "packageManager": "pnpm@11.7.0"
+}
