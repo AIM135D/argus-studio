@@ -69,8 +69,8 @@ else
 fi
 
 if git rev-parse -q --verify "refs/tags/${TAG}" >/dev/null; then
-  [[ "$(git rev-list -n 1 "$TAG")" == "$(git rev-parse HEAD)" ]] || {
-    printf 'Local tag %s points to a different commit. Refusing to move a release tag.\n' "$TAG" >&2
+  git merge-base --is-ancestor "${TAG}^{commit}" HEAD || {
+    printf 'Local tag %s is not an ancestor of main. Refusing to move a release tag.\n' "$TAG" >&2
     exit 1
   }
 else
