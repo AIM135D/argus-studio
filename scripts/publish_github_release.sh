@@ -83,6 +83,7 @@ gh repo edit "$SLUG" \
   --description "$DESCRIPTION" \
   --default-branch main \
   --visibility public \
+  --accept-visibility-change-consequences \
   --enable-issues \
   --enable-projects=false \
   --enable-wiki=false \
