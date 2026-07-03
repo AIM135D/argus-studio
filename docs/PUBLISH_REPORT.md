@@ -1,19 +1,15 @@
 # GitHub Publish Report
 
-Date: 2026-07-02 (Asia/Shanghai)
+Date: 2026-07-03 (Asia/Shanghai)
 
 ## Status
 
-**Local publication package: complete**
-**GitHub repository and Release: pending authentication**
+**GitHub publication: complete**
 
-The source tree, clean public history, CI, release notes, DMG, checksum, and idempotent publication script are ready. Online writes could not be performed because:
-
-- `gh` is not installed in the active shell;
-- the available GitHub connector does not expose repository or Release creation;
-- the available browser session is not signed in to GitHub.
-
-No credentials were requested, printed, or stored.
+The source tree, clean public history, CI, release notes, DMG, and checksum are
+published under the authenticated `AIM135D` GitHub account. The repository is
+public, `main` is the default branch, and Release `v0.1.0` contains both verified
+assets.
 
 ## Prepared targets
 
@@ -27,12 +23,11 @@ No credentials were requested, printed, or stored.
   - `dist/ARGUS-Studio-0.1.0-macOS.dmg`
   - `dist/ARGUS-Studio-0.1.0-macOS.dmg.sha256`
 
-## One-command publication
+## Repeatable publication
 
-Install GitHub CLI, authenticate the intended GitHub account, and run:
+With GitHub CLI authenticated, subsequent releases can use:
 
 ```bash
-gh auth login
 ./scripts/publish_github_release.sh
 ```
 
@@ -70,5 +65,17 @@ The script never force-pushes, never pushes `local-development-history`, and ref
 
 ## Online links
 
-- Repository URL: pending authentication
-- Release URL: pending authentication
+- Repository URL: https://github.com/AIM135D/argus-studio
+- Release URL: https://github.com/AIM135D/argus-studio/releases/tag/v0.1.0
+- CI verification: https://github.com/AIM135D/argus-studio/actions/runs/28669244561
+
+## Online verification
+
+- Repository visibility: public.
+- Default branch: `main`.
+- Annotated tag `v0.1.0` targets commit `ab550967e6aeae44386fd71fba0e432f6da44883`.
+- Release is published, non-draft, and non-prerelease.
+- DMG asset size: 197,815,748 bytes.
+- GitHub asset digest: `sha256:ca33ecc49e15e5a66a7878d2cecfcef75f286bd320d892de8c1b90359fb6fec0`.
+- Checksum companion size: 95 bytes.
+- GitHub Actions `macOS verification`: passed.

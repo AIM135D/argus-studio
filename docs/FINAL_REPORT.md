@@ -1,12 +1,12 @@
 # ARGUS Studio v0.1.0 Final Report
 
-Date: 2026-07-02 (Asia/Shanghai)
+Date: 2026-07-03 (Asia/Shanghai)
 
 ## Conclusion
 
-ARGUS Studio has been converted into a publication-ready macOS open-source project with a clean public history, MIT licensing, bilingual user documentation, contributor governance, security review, macOS CI, release automation, and a verified Apple Silicon DMG.
+ARGUS Studio is published as a public macOS open-source project with a clean public history, MIT licensing, bilingual user documentation, contributor governance, security review, passing macOS CI, release automation, and a verified Apple Silicon DMG.
 
-Online GitHub creation is the only incomplete step. The local machine has no authenticated GitHub CLI or writable GitHub connector session. The repository is ready for one-command publication with `scripts/publish_github_release.sh`; see [PUBLISH_REPORT.md](PUBLISH_REPORT.md).
+The source repository is https://github.com/AIM135D/argus-studio and the initial release is https://github.com/AIM135D/argus-studio/releases/tag/v0.1.0. See [PUBLISH_REPORT.md](PUBLISH_REPORT.md) for the publication evidence.
 
 ## Release candidate
 
@@ -70,6 +70,8 @@ See [SECURITY.md](SECURITY.md) for evidence and accepted limitations.
 | Repository security scan | passed |
 | pnpm dependency audit | no known vulnerabilities |
 | Python dependency consistency | passed |
+| GitHub Actions macOS verification | passed |
+| GitHub Release metadata and assets | passed |
 
 One deprecation warning is emitted by FastAPI's compatibility `TestClient` because the installed FastAPI version is transitioning from `httpx` to `httpx2`; it does not fail the suite.
 
@@ -85,7 +87,6 @@ One deprecation warning is emitted by FastAPI's compatibility `TestClient` becau
 
 ## Public links
 
-- Repository: pending GitHub authentication
-- Release: pending GitHub authentication
-
-After the publication script succeeds, these links are printed and recorded in the ignored `.argus-publish-result.json`.
+- Repository: https://github.com/AIM135D/argus-studio
+- Release: https://github.com/AIM135D/argus-studio/releases/tag/v0.1.0
+- CI: https://github.com/AIM135D/argus-studio/actions/runs/28669244561
