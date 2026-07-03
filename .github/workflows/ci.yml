@@ -35,10 +35,11 @@ jobs:
         with:
           node-version: "22.12.0"
 
-      - name: Enable pnpm
-        run: |
-          corepack enable
-          corepack prepare pnpm@11.7.0 --activate
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: "11.7.0"
+          run_install: false
 
       - name: Install Python dependencies
         run: |
